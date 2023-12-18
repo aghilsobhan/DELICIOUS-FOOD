@@ -1,0 +1,39 @@
+.item-footer{
+     grid-column: 1/-1;
+margin: 1rem 0px;
+
+  border-top: 1px solid black;
+background-color: whitesmoke;    }
+.footer-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    grid-template-rows: 1fr;
+    gap: 7px;
+    text-align: center;
+    padding: 35px;
+}
+.copy{
+    margin-top: 1rem;
+    font-size: 12px;
+    text-align: center;
+}
+.deli{
+    color: orange;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.footer-title{
+    color: orange;
+    font-weight: 400;
+}
+@media screen and (max-width:557px){
+.footer-section{
+    text-align: start;
+}
+}
